@@ -11,4 +11,11 @@ public class Estudiante {
     private int edad;
     private int curso;
 
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
 }
